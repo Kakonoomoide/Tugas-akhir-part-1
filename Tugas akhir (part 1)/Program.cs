@@ -18,7 +18,7 @@ namespace Tugas_akhir__part_1_
                 SqlConnection conn = null;
                 string strKoneksi = "Data Source = DESKTOP-JO96DR8\\RIZKI_RAMADAN;" +
                     "Initial Catalog = {0};" +
-                    "User ID = sa; Password = indonesia";
+                    "User ID = sa; Password = PASS";
                 conn = new SqlConnection(string.Format(strKoneksi, db));
                 conn.Open();
                 Console.Clear();
